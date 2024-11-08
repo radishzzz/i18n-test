@@ -9,7 +9,7 @@ import {
   transformerVariantGroup,
 } from 'unocss'
 import presetTheme from 'unocss-preset-theme'
-import { themeConfig } from './src/.config'
+import { themeConfig } from './src/config'
 
 const { colorsDark, colorsLight, fonts } = themeConfig.appearance
 
@@ -65,7 +65,7 @@ export default defineConfig({
           colors: { ...colorsDark, shadow: '#FFFFFF0A' },
           // TODO 需要配置代码块颜色
         },
-      }
+      },
     }),
   ],
   theme: {

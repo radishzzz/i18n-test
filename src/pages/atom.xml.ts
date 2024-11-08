@@ -1,8 +1,8 @@
 import type { APIContext } from 'astro'
 import rss from '@astrojs/rss'
-import { themeConfig } from '~/.config'
 import MarkdownIt from 'markdown-it'
 import sanitizeHtml from 'sanitize-html'
+import { themeConfig } from '~/config'
 import type { Post } from '~/types'
 import { getPosts } from '~/utils'
 

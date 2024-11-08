@@ -10,10 +10,6 @@ import type {
 } from 'giscus'
 import type { LANGUAGES } from '../i18n.ts'
 
-export type DeepPartial<T> = {
-  [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P];
-}
-
 export interface ThemeConfig {
   site: ConfigSite
   appearance: ConfigAppearance
@@ -23,8 +19,6 @@ export interface ThemeConfig {
   analytics: ConfigAnalytics
   latex: ConfigLaTeX
 }
-
-export type UserConfig = DeepPartial<ThemeConfig>
 
 export interface ConfigSite {
   title: string

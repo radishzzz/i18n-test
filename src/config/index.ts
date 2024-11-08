@@ -1,8 +1,5 @@
 import type { ThemeConfig } from '~/types'
 
-// This is the default configuration for the template, please do not modify it directly.
-// You can override this configuration in the `.config/user.ts` file.
-
 export const defaultConfig: ThemeConfig = {
   site: {
     title: '活版印字',
@@ -55,7 +52,7 @@ export const defaultConfig: ThemeConfig = {
     ],
   },
   appearance: {
-    theme: 'light',
+    theme: 'dark',
     locale: 'zh-cn',
     colorsLight: {
       primary: '#2e405b',
@@ -90,3 +87,5 @@ export const defaultConfig: ThemeConfig = {
     katex: false,
   },
 }
+
+export const themeConfig = defaultConfig
