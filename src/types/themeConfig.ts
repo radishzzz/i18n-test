@@ -48,9 +48,10 @@ export interface ConfigSEO {
 }
 
 export interface ConfigComment {
-  disqus: Disqus
-  giscus: Giscus
-  twikoo: Twikoo
+  waline?: Waline
+  twikoo?: Twikoo
+  disqus?: Disqus
+  giscus?: Giscus
 }
 
 export interface ConfigRSS {
@@ -80,6 +81,20 @@ interface Fonts {
   // TODO: 未实现
   _article?: string
   _code?: string
+}
+
+interface Waline {
+  serverURL: string
+  lang?: string
+  search?: boolean
+  comment?: boolean
+  pageview?: boolean
+  imageUploader?: boolean
+  emoji?: string[]
+  meta?: string[]
+  requiredMeta?: string[]
+  login?: string
+  locale?: Record<string, string>
 }
 
 interface Twikoo {

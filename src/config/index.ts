@@ -55,12 +55,12 @@ export const defaultConfig: ThemeConfig = {
     theme: 'dark',
     locale: 'zh-cn',
     colorsLight: {
-      primary: '#2e405b',
+      primary: '#333333',
       background: '#ffffff',
     },
     colorsDark: {
-      primary: '#FFFFFF',
-      background: '#232222',
+      primary: '#dbdbdb',
+      background: '#121212',
     },
     fonts: {
       header:
@@ -77,7 +77,16 @@ export const defaultConfig: ThemeConfig = {
     fullText: true,
   },
   comment: {
-    // disqus: { shortname: "typography-astro" },
+    waline: {
+      serverURL: 'https://comment.radishzz.cc',
+      lang: 'zh-CN',
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+      ],
+      search: false,
+      imageUploader: false,
+    },
   },
   analytics: {
     googleAnalyticsId: '',

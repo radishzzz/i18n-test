@@ -1,0 +1,102 @@
+---
+// 导入配置文件中的themeConfig对象
+import { themeConfig } from '~/config'
+
+// 从themeConfig.comment中解构出waline配置项的属性，如果themeConfig.comment或themeConfig.comment.waline不存在，则使用空对象{}
+const { serverURL, lang, emoji, search, imageUploader } = themeConfig.comment?.waline || {}
+---
+
+<div id="waline"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+
+<script type="module" is:inline define:vars={{ serverURL, lang, emoji, search, imageUploader }}>
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js'
+
+  init({
+    el: '#waline',
+    serverURL,
+    lang,
+    emoji,
+    search,
+    imageUploader,
+  })
+</script>
+
+<style>
+  /* 亮色模式 */
+  #waline {
+    margin-top: 0rem;
+    max-width: 65ch;
+
+    /* 基础字号和尺寸 */
+    --waline-font-size: 1rem;
+    --waline-avatar-size: 3.25rem;
+    --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+    /* 基础颜色 */
+    --waline-white: #fff;
+    --waline-light-grey: #999;
+    --waline-dark-grey: #666;
+
+    /* 主题颜色 */
+    --waline-theme-color: #333;
+    --waline-active-color: #444;
+    --waline-color: #333;
+
+    /* 背景颜色 */
+    --waline-bg-color: #fff;
+    --waline-bg-color-light: #f8f8f8;
+    --waline-bg-color-hover: #f0f0f0;
+    --waline-disable-bg-color: #f8f8f8;
+    --waline-info-bg-color: #f8f8f8;
+    --waline-bq-color: #f0f0f0;
+
+    /* 文字颜色 */
+    --waline-disable-color: #666;
+    --waline-info-color: #999;
+
+    /* 代码块 */
+    --waline-code-bg-color: #f8f8f8;
+
+    /* 其他 */
+    --waline-border-color: #ddd;
+    --waline-badge-color: #666;
+    --waline-badge-font-size: 0.75em;
+    --waline-info-font-size: 0.625em;
+    --waline-border: 1px solid var(--waline-border-color);
+    --waline-avatar-radius: 12px;
+  }
+
+  /* 暗色模式 */
+  html.dark #waline {
+    /* 基础颜色 */
+    --waline-white: #1a1a1a;
+    --waline-light-grey: #999;
+    --waline-dark-grey: #888;
+
+    /* 主题颜色 */
+    --waline-theme-color: #dbdbdb;
+    --waline-active-color: #ccc;
+    --waline-color: #e5e5e5;
+
+    /* 背景颜色 */
+    --waline-bg-color: #1a1a1a;
+    --waline-bg-color-light: #2c2c2c;
+    --waline-bg-color-hover: #333;
+    --waline-disable-bg-color: #2c2c2c;
+    --waline-info-bg-color: #2c2c2c;
+    --waline-bq-color: #2c2c2c;
+
+    /* 文字颜色 */
+    --waline-disable-color: #999;
+    --waline-info-color: #888;
+
+    /* 代码块 */
+    --waline-code-bg-color: #2c2c2c;
+
+    /* 其他 */
+    --waline-border-color: #333;
+    --waline-badge-color: #999;
+  }
+</style>
