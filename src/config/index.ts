@@ -52,7 +52,6 @@ export const defaultConfig: ThemeConfig = {
     ],
   },
   appearance: {
-    theme: 'dark',
     locale: 'zh-cn',
     colorsLight: {
       primary: '#333333',
