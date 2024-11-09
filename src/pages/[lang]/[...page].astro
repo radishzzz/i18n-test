@@ -1,21 +1,36 @@
 ---
-import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
+import type { GetStaticPaths, Page } from 'astro'
 import { themeConfig } from '~/config'
 import Pagination from '~/components/Pagination.astro'
 import LayoutDefault from '~/layouts/LayoutDefault.astro'
 import LayoutPost from '~/layouts/LayoutPost.astro'
 import { getPostDescription, getPosts } from '~/utils'
 
-const { translate: t } = Astro.locals
-
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getPosts()
-  return paginate(posts, { pageSize: themeConfig.site.pageSize })
+  const languages = ['zh', 'en', 'es', 'ru', 'ja']
+
+  return languages.flatMap((lang) => {
+    const langPosts = posts.filter((post) => {
+      const postLang = post.slug.split('/')[0]
+      return postLang === lang
+    })
+
+    return paginate(langPosts, {
+      params: { lang },
+      pageSize: themeConfig.site.pageSize,
+      props: { lang }, // 将 lang 作为 props 传递
+    })
+  })
 }) satisfies GetStaticPaths
 
-type Props = InferGetStaticPropsType<typeof getStaticPaths>
+type Props = {
+  page: Page
+  lang: string
+}
 
-const { page } = Astro.props
+const { page, lang } = Astro.props as Props
+const { translate: t } = Astro.locals
 ---
 
 <LayoutDefault>
