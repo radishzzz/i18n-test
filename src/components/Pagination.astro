@@ -1,15 +1,14 @@
 ---
 const { translate: t } = Astro.locals
+const { lang } = Astro.params as { lang: string }
 
 interface Props {
   showLeft?: boolean
   leftTitle?: string
   leftUrl?: string
-
   showRight?: boolean
   rightTitle?: string
   rightUrl?: string
-
   showPageCount?: boolean
   currentPage?: number
   totalPage?: number
@@ -26,6 +25,10 @@ const {
   currentPage,
   totalPage,
 } = Astro.props
+
+// 确保分页链接包含语言前缀
+const localizedLeftUrl = leftUrl ? `/${lang}${leftUrl}` : undefined
+const localizedRightUrl = rightUrl ? `/${lang}${rightUrl}` : undefined
 ---
 
 <footer class="mt-5">
@@ -39,7 +42,7 @@ const {
   <div class="flex items-center gap-2">
     {
       showLeft && (
-        <a title={leftTitle} href={leftUrl}>
+        <a title={leftTitle} href={localizedLeftUrl}>
           <span class="inline-block vertical-mid i-mdi-chevron-double-left w-4 h-4" />
           {leftTitle}
         </a>
@@ -47,7 +50,7 @@ const {
     }
     {
       showRight && (
-        <a title={rightTitle} href={rightUrl}>
+        <a title={rightTitle} href={localizedRightUrl}>
           {rightTitle}
           <span class="inline-block vertical-mid i-mdi-chevron-double-right w-4 h-4" />
         </a>

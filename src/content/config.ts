@@ -8,8 +8,8 @@ const posts = defineCollection({
       description: z.string().optional(),
       pubDate: z.coerce.date(),
       customData: z.string().optional(),
-      // lang: z.enum(['zh', 'en', 'es', 'ru', 'ja']).optional(),
-      canonicalSlug: z.string().optional(),
+      lang: z.enum(['zh', 'en', 'es', 'ru', 'ja']),
+      canonicalSlug: z.string(),
       banner: image()
         .refine(img => Math.max(img.width, img.height) <= 4096, {
           message: 'Width and height of the banner must less than 4096 pixels',

@@ -1,5 +1,8 @@
 import type { ThemeConfig } from '~/types'
 
+export const SUPPORTED_LANGUAGES = ['zh', 'en', 'es', 'ru', 'ja'] as const
+export type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number]
+
 export const defaultConfig: ThemeConfig = {
   site: {
     title: '活版印字',
@@ -52,7 +55,7 @@ export const defaultConfig: ThemeConfig = {
     ],
   },
   appearance: {
-    locale: 'zh-cn',
+    locale: 'zh',
     colorsLight: {
       primary: '#333333',
       background: '#ffffff',

@@ -1,0 +1,14 @@
+---
+import LayoutDefault from '~/layouts/LayoutDefault.astro'
+import { SUPPORTED_LANGUAGES } from '~/config'
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGUAGES.map((lang) => ({
+    params: { lang },
+  }))
+}
+
+const { lang } = Astro.params as { lang: string }
+---
+
+<LayoutDefault />

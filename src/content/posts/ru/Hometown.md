@@ -3,6 +3,7 @@ title: Отчизна
 pubDate: 1921-01-10
 categories: ['魯迅']
 description: ''
+lang: ru
 canonicalSlug: Hometown
 ---
 

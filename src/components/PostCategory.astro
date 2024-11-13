@@ -7,9 +7,11 @@ interface Props {
 }
 
 const { category } = Astro.props
+// 从 Astro.params 获取当前语言
+const { lang } = Astro.params as { lang: string }
 
 function getCategoryUrl(category: string) {
-  return `/categories/${getPathFromCategory(category, themeConfig.site.categoryMap)}`
+  return `/${lang}/categories/${getPathFromCategory(category, themeConfig.site.categoryMap)}`
 }
 ---
 

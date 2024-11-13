@@ -1,0 +1,63 @@
+---
+import { themeConfig } from '~/config'
+import LayoutDefault from '~/layouts/LayoutDefault.astro'
+import { getCategories, getPathFromCategory } from '~/utils/index'
+
+export async function getStaticPaths() {
+  const languages = ['zh', 'en', 'es', 'ru', 'ja']
+  const categoryMap = await getCategories()
+
+  return languages.map((lang) => {
+    // 过滤出当前语言的分类和文章
+    const langCategoryMap = new Map()
+
+    categoryMap.forEach((posts, category) => {
+      const langPosts = posts.filter((post) => {
+        const postLang = post.slug.split('/')[0]
+        return postLang === lang
+      })
+
+      if (langPosts.length > 0) {
+        langCategoryMap.set(category, langPosts)
+      }
+    })
+
+    return {
+      params: { lang },
+      props: { categoryMap: langCategoryMap },
+    }
+  })
+}
+
+const { categoryMap } = Astro.props
+const { lang } = Astro.params
+const { translate: t } = Astro.locals
+
+function getListFromMap(map: Map<string, any[]>) {
+  return Array.from(map).map(([key, value]) => ({
+    title: key,
+    href: `/${lang}/categories/${getPathFromCategory(key, themeConfig.site.categoryMap)}`,
+    size: t('categories_count', value.length),
+  }))
+}
+
+const list = getListFromMap(categoryMap)
+---
+
+<LayoutDefault>
+  <section>
+    <h2 class="post-title">{t('Categories')}</h2>
+    <ul class="pl-6" flex="~ col gap-4">
+      {
+        list.map(({ title, href, size }) => (
+          <li>
+            <h3 class="post-title">
+              <a href={href}># {title}</a>
+            </h3>
+            <p>{size}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</LayoutDefault>
