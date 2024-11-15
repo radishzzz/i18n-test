@@ -3,6 +3,7 @@ title: 故乡
 pubDate: 1921-01-10
 categories: ['魯迅']
 description: ''
+lang: zh
 canonicalSlug: Hometown
 ---
 

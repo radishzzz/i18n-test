@@ -1,10 +1,19 @@
 ---
 import LayoutDefault from '~/layouts/LayoutDefault.astro'
 import type { Post } from '~/types'
-import { formatDate, getPosts } from '~/utils'
+import { formatDate, getPostsByLang } from '~/utils'
+import { SUPPORTED_LANGUAGES } from '~/config'
 
-const posts = await getPosts()
+export function getStaticPaths() {
+  return SUPPORTED_LANGUAGES.map((lang) => ({
+    params: { lang },
+  }))
+}
 
+const { lang } = Astro.params as { lang: string }
+
+// 使用 getPostsByLang 替代 getPosts，只获取当前语言的文章
+const posts = await getPostsByLang(lang)
 const yearMap = getYearMap(posts)
 
 interface ListItem {
@@ -27,19 +36,20 @@ function getYearMap(posts: Post[]) {
 function getListItem(post: Post): ListItem {
   return {
     title: post.data.title,
-    href: `/posts/${post.slug}/`,
-    date: formatDate(post.data.pubDate, 'MM-DD'),
+    // 使用 canonicalSlug 来生成 URL，去掉多余的语言前缀
+    href: `/${lang}/posts/${post.data.canonicalSlug}/`,
+    date: formatDate(post.data.pubDate, 'MM-DD', lang),
   }
 }
 ---
 
 <LayoutDefault>
-  <div flex="~ col gap-4">
+  <div flex="\~ col gap-4">
     {
       yearMap.map(([year, posts]) => (
         <section>
           <h2 class="post-title">{year}</h2>
-          <ul class="pl-6" flex="~ col gap-4">
+          <ul class="pl-6" flex="\~ col gap-4">
             {posts.map(({ title, href, date }) => (
               <li>
                 <h3 class="post-title">

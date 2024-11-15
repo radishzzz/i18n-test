@@ -6,23 +6,43 @@ import { formatDate, getCategories, getPathFromCategory } from '~/utils'
 
 export async function getStaticPaths() {
   const categoryMap = await getCategories()
-  return Array.from(categoryMap).map(([key, value]) => {
+  const languages = ['zh', 'en', 'es', 'ru', 'ja']
+
+  return Array.from(categoryMap).flatMap(([key, value]) => {
     const path = getPathFromCategory(key, themeConfig.site.categoryMap)
-    return {
-      params: { category: path },
-      props: { posts: value, name: key },
-    }
+
+    return languages.map((lang) => {
+      const langPosts = value.filter((post) => {
+        const postLang = post.slug.split('/')[0]
+        return postLang === lang
+      })
+
+      return {
+        params: {
+          lang,
+          category: path,
+        },
+        props: {
+          posts: langPosts,
+          name: key,
+        },
+      }
+    })
   })
 }
 
 const { posts, name } = Astro.props
+const { lang } = Astro.params as { lang: string }
 
 function getListItems(posts: Post[]) {
-  const result = posts.map((post) => ({
-    title: post.data.title,
-    href: `/posts/${post.slug}/`,
-    date: formatDate(post.data.pubDate),
-  }))
+  const result = posts.map((post) => {
+    const slug = post.data.canonicalSlug || post.slug.split('/').pop()
+    return {
+      title: post.data.title,
+      href: `/${lang}/posts/${slug}`,
+      date: formatDate(post.data.pubDate),
+    }
+  })
   return result
 }
 ---

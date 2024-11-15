@@ -21,18 +21,32 @@ const twitter = configSEO.twitter
 const rss = new URL('/atom.xml', Astro.site).toString()
 const optimizedImage = await getOptimizedImageURL()
 
+const { lang } = Astro.params as { lang: string }
+const languages = ['zh', 'en', 'es', 'ru', 'ja']
+
+// 添加语言相关的链接
+const languageLinks = languages.map((l) => ({
+  rel: 'alternate',
+  hrefLang: l,
+  href: new URL(Astro.url.pathname.replace(`/${lang}/`, `/${l}/`), Astro.site).toString(),
+}))
+
 const seoLinks = [
   { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
   {
     rel: 'alternate',
     type: 'application/rss+xml',
     title: themeConfig.site.title,
-    href: rss,
+    href: `/${lang}/atom.xml`,
   },
+  ...languageLinks,
   ...configSEO.link,
 ]
 
 const seoMeta = [
+  { name: 'viewport', content: 'width=device-width' },
+  { name: 'generator', content: Astro.generator },
+  { name: 'language', content: lang },
   { name: 'viewport', content: 'width=device-width' },
   { name: 'generator', content: Astro.generator },
   { name: 'twitter:image:src', content: optimizedImage },
@@ -64,6 +78,7 @@ async function getOptimizedImageURL() {
   charset="utf-8"
   title={title}
   description={desc}
+  language={lang}
   extend={{ link: seoLinks, meta: seoMeta }}
   openGraph={openGraph}
 />

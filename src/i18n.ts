@@ -1,5 +1,5 @@
 export const LANGUAGES = {
-  'zh-cn': {
+  zh: {
     Home: '首页',
     Posts: '文章',
     Categories: '分类',
@@ -21,7 +21,7 @@ export const LANGUAGES = {
     prev_post: '上一篇',
     next_post: '下一篇',
   },
-  'en-us': {
+  en: {
     Home: 'Home',
     Posts: 'Posts',
     Categories: 'Categories',
@@ -43,7 +43,7 @@ export const LANGUAGES = {
     prev_post: 'Previous post',
     next_post: 'Next post',
   },
-  'es-es': {
+  es: {
     Home: 'Inicio',
     Posts: 'Entradas',
     Categories: 'Categorías',
@@ -65,7 +65,7 @@ export const LANGUAGES = {
     prev_post: 'Entrada anterior',
     next_post: 'Siguiente entrada',
   },
-  'ru-ru': {
+  ru: {
     Home: 'Главная',
     Posts: 'Публикации',
     Categories: 'Категории',
@@ -87,7 +87,7 @@ export const LANGUAGES = {
     prev_post: 'Предыдущая запись',
     next_post: 'Следующая запись',
   },
-  'ja-jp': {
+  ja: {
     Home: 'ホーム',
     Posts: '投稿',
     Categories: 'カテゴリー',

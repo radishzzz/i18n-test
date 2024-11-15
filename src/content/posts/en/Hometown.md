@@ -3,6 +3,7 @@ title: Hometown
 pubDate: 1921-01-10
 categories: ['魯迅']
 description: ''
+lang: en
 canonicalSlug: Hometown
 ---
 

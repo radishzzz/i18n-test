@@ -3,6 +3,7 @@ title: Pueblo natal
 pubDate: 1921-01-10
 categories: ['魯迅']
 description: ''
+lang: es
 canonicalSlug: Hometown
 ---
 

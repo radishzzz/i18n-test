@@ -3,12 +3,19 @@ import { themeConfig } from '~/config'
 
 const { navLinks, socialLinks } = themeConfig.site
 const { translate: t } = Astro.locals
+const { lang } = Astro.params as { lang: string }
+
+// 为导航链接添加语言前缀
+const localizedNavLinks = navLinks.map((nav) => ({
+  ...nav,
+  href: nav.href.startsWith('http') ? nav.href : `/${lang}${nav.href}`,
+}))
 ---
 
 <nav class="text-center font-bold" flex="~ col gap-4">
   <ul lg="flex-col items-start text-4" class="text-3.5" flex="~ row gap-2 justify-center">
     {
-      navLinks.map((nav) => (
+      localizedNavLinks.map((nav) => (
         <li>
           <a class="" href={nav.href}>
             {t(nav.name)}

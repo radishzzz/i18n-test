@@ -11,9 +11,10 @@ interface Props {
 }
 
 const { id, data, slug } = Astro.props.post
+const { lang } = Astro.params as { lang: string }
 
-const path = `/posts/${slug}`
-const url = `${Astro.site?.href}${path}`
+const path = `/${lang}/posts/${slug}`
+const url = new URL(path, Astro.site).toString()
 
 const provider = getProvider()
 
