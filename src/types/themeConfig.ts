@@ -9,6 +9,7 @@ import type {
   Theme,
 } from 'giscus'
 import type { LANGUAGES } from '../i18n.ts'
+import type { SupportedLanguage } from '~/config'
 
 export interface ThemeConfig {
   site: ConfigSite
@@ -24,9 +25,7 @@ export interface ConfigSite {
   title: string
   subtitle: string
   author: string
-  description: {
-    [key in keyof typeof LANGUAGES]: string
-  }
+  description: Record<SupportedLanguage, string>
   website: string
   pageSize: number
   socialLinks: { name: string, href: string }[]

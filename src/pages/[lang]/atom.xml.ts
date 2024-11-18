@@ -3,7 +3,8 @@ import rss from '@astrojs/rss'
 import { getCollection } from 'astro:content'
 import MarkdownIt from 'markdown-it'
 import sanitizeHtml from 'sanitize-html'
-import { themeConfig } from '~/config'
+import { SUPPORTED_LANGUAGES, themeConfig } from '~/config'
+import type { SupportedLanguage } from '~/config'
 import type { Post } from '~/types'
 
 const parser = new MarkdownIt()
@@ -11,13 +12,13 @@ const { title, description, website, author } = themeConfig.site
 const allowedTags = sanitizeHtml.defaults.allowedTags.concat(['img'])
 
 export function getStaticPaths() {
-  return ['zh', 'en', 'es', 'ru', 'ja'].map(lang => ({
+  return SUPPORTED_LANGUAGES.map(lang => ({
     params: { lang },
   }))
 }
 
 export async function GET(context: APIContext) {
-  const lang = context.params.lang as string
+  const lang = context.params.lang as SupportedLanguage
   const langPosts = await getCollection('posts', ({ data }) => data.lang === lang)
 
   return rss({
@@ -37,7 +38,7 @@ function getCustomData() {
   return `<follow_challenge><feedId>${feedId}</feedId><userId>${userId}</userId></follow_challenge>`
 }
 
-function getPostItem(post: Post, lang: string) {
+function getPostItem(post: Post, lang: SupportedLanguage) {
   const postItem = {
     link: `/${lang}/posts/${post.slug}/`,
     author: post.data.author ?? author,

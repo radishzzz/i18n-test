@@ -10,7 +10,7 @@ export function getStaticPaths() {
   }))
 }
 
-const { lang } = Astro.params as { lang: string }
+const { lang } = Astro.params as { lang: 'zh' | 'en' | 'es' | 'ru' | 'ja' }
 
 // 使用 getPostsByLang 替代 getPosts，只获取当前语言的文章
 const posts = await getPostsByLang(lang)
@@ -38,7 +38,7 @@ function getListItem(post: Post): ListItem {
     title: post.data.title,
     // 使用 canonicalSlug 来生成 URL，去掉多余的语言前缀
     href: `/${lang}/posts/${post.data.canonicalSlug}/`,
-    date: formatDate(post.data.pubDate, 'MM-DD', lang),
+    date: formatDate(post.data.pubDate, 'MM-DD'),
   }
 }
 ---

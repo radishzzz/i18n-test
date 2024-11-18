@@ -2,6 +2,8 @@
 import { SEO, type SEOProps } from 'astro-seo'
 import { getImage } from 'astro:assets'
 import { themeConfig } from '~/config'
+import type { SupportedLanguage } from '~/config'
+import type { Meta } from 'astro-seo' // 确保导入 Meta 类型
 
 interface Props {
   title?: string
@@ -10,7 +12,6 @@ interface Props {
 }
 
 const props = Astro.props
-
 const configSEO = themeConfig.seo
 const configSite = themeConfig.site
 
@@ -18,13 +19,19 @@ const title = props.title ?? configSite.title
 const desc = props.desc ?? configSite.description
 const canonical = configSite.website
 const twitter = configSEO.twitter
-const rss = new URL('/atom.xml', Astro.site).toString()
-const optimizedImage = await getOptimizedImageURL()
 
 const { lang } = Astro.params as { lang: string }
 const languages = ['zh', 'en', 'es', 'ru', 'ja']
 
-// 添加语言相关的链接
+const description =
+  typeof desc === 'string'
+    ? desc
+    : (desc as Record<SupportedLanguage, string>)?.[lang as SupportedLanguage] ||
+      (desc as Record<SupportedLanguage, string>)?.['en']
+
+const rss = new URL('/atom.xml', Astro.site).toString()
+const optimizedImage = await getOptimizedImageURL()
+
 const languageLinks = languages.map((l) => ({
   rel: 'alternate',
   hrefLang: l,
@@ -43,19 +50,17 @@ const seoLinks = [
   ...configSEO.link,
 ]
 
-const seoMeta = [
+const seoMeta: Partial<Meta>[] = [
   { name: 'viewport', content: 'width=device-width' },
   { name: 'generator', content: Astro.generator },
   { name: 'language', content: lang },
-  { name: 'viewport', content: 'width=device-width' },
-  { name: 'generator', content: Astro.generator },
   { name: 'twitter:image:src', content: optimizedImage },
-  { name: 'twitter:image:alt', content: desc },
+  { name: 'twitter:image:alt', content: description },
   { name: 'twitter:creator', content: twitter },
   { name: 'twitter:site', content: twitter },
   { name: 'twitter:card', content: 'summary_large_image' },
   { name: 'twitter:title', content: title },
-  { name: 'twitter:description', content: desc },
+  { name: 'twitter:description', content: description },
   ...configSEO.meta,
 ]
 
@@ -77,8 +82,7 @@ async function getOptimizedImageURL() {
 <SEO
   charset="utf-8"
   title={title}
-  description={desc}
-  language={lang}
+  description={description}
   extend={{ link: seoLinks, meta: seoMeta }}
   openGraph={openGraph}
 />
