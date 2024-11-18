@@ -8,7 +8,13 @@ export const defaultConfig: ThemeConfig = {
     title: '活版印字',
     subtitle: 'Typography',
     author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
+    description: {
+      zh: '发现排版之美',
+      en: 'Rediscover the beauty of typography',
+      es: 'Redescubre la belleza de la tipografía',
+      ru: 'Откройте для себя красоту типографики',
+      ja: 'タイポグラフィーの美しさを再発見',
+    },
     website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
     socialLinks: [
@@ -81,7 +87,6 @@ export const defaultConfig: ThemeConfig = {
   comment: {
     waline: {
       serverURL: 'https://comment.radishzz.cc',
-      lang: 'zh-CN',
       emoji: [
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',
         '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',

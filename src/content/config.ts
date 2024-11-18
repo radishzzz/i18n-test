@@ -15,7 +15,10 @@ const posts = defineCollection({
           message: 'Width and height of the banner must less than 4096 pixels',
         })
         .optional(),
-      categories: z.array(z.string()),
+      categories: z.preprocess(
+        val => (typeof val === 'string' ? [val] : val),
+        z.array(z.string()),
+      ),
       author: z.string().optional(),
       commentsUrl: z.string().optional(),
       source: z.optional(z.object({ url: z.string(), title: z.string() })),

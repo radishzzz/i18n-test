@@ -24,7 +24,9 @@ export interface ConfigSite {
   title: string
   subtitle: string
   author: string
-  description: string
+  description: {
+    [key in keyof typeof LANGUAGES]: string
+  }
   website: string
   pageSize: number
   socialLinks: { name: string, href: string }[]
@@ -55,7 +57,6 @@ export interface ConfigComment {
 
 export interface ConfigRSS {
   fullText?: boolean
-  /** https://github.com/RSSNext/follow */
   follow?: { feedId: string, userId: string }
 }
 
@@ -84,7 +85,6 @@ interface Fonts {
 
 interface Waline {
   serverURL: string
-  lang?: string
   search?: boolean
   comment?: boolean
   pageview?: boolean

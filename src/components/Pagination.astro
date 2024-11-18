@@ -26,9 +26,9 @@ const {
   totalPage,
 } = Astro.props
 
-// 确保分页链接包含语言前缀
-const localizedLeftUrl = leftUrl ? `/${lang}${leftUrl}` : undefined
-const localizedRightUrl = rightUrl ? `/${lang}${rightUrl}` : undefined
+// 直接使用传入的 URL，不做处理
+const localizedLeftUrl = leftUrl
+const localizedRightUrl = rightUrl
 ---
 
 <footer class="mt-5">

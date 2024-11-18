@@ -1,22 +1,30 @@
 import type { APIContext } from 'astro'
 import rss from '@astrojs/rss'
+import { getCollection } from 'astro:content'
 import MarkdownIt from 'markdown-it'
 import sanitizeHtml from 'sanitize-html'
 import { themeConfig } from '~/config'
 import type { Post } from '~/types'
-import { getPosts } from '~/utils'
 
 const parser = new MarkdownIt()
 const { title, description, website, author } = themeConfig.site
 const allowedTags = sanitizeHtml.defaults.allowedTags.concat(['img'])
 
-export async function GET(_context: APIContext) {
-  const posts = await getPosts()
+export function getStaticPaths() {
+  return ['zh', 'en', 'es', 'ru', 'ja'].map(lang => ({
+    params: { lang },
+  }))
+}
+
+export async function GET(context: APIContext) {
+  const lang = context.params.lang as string
+  const langPosts = await getCollection('posts', ({ data }) => data.lang === lang)
+
   return rss({
     title,
-    description,
+    description: description[lang],
     site: website,
-    items: posts.map(getPostItem),
+    items: langPosts.map(post => getPostItem(post, lang)),
     customData: getCustomData(),
   })
 }
@@ -29,9 +37,9 @@ function getCustomData() {
   return `<follow_challenge><feedId>${feedId}</feedId><userId>${userId}</userId></follow_challenge>`
 }
 
-function getPostItem(post: Post) {
+function getPostItem(post: Post, lang: string) {
   const postItem = {
-    link: `/posts/${post.slug}/`,
+    link: `/${lang}/posts/${post.slug}/`,
     author: post.data.author ?? author,
     content: getPostContent(post),
     title: post.data.title,

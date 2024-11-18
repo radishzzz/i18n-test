@@ -1,5 +1,6 @@
 ---
 import { themeConfig } from '~/config'
+import { LANGUAGES } from '~/i18n'
 import SiteFooter from '~/components/SiteFooter.astro'
 import SiteNavigation from '~/components/SiteNavigation.astro'
 import SiteTitle from '~/components/SiteTitle.astro'
@@ -8,7 +9,15 @@ import LaTeX from '~/components/LaTeX.astro'
 import Analytics from '~/components/Analytics.astro'
 import '~/styles/global.css'
 
-const lang = themeConfig.appearance.locale ?? 'en-us'
+type SupportedLang = keyof typeof LANGUAGES
+
+function isSupportedLang(lang: string): lang is SupportedLang {
+  return lang in LANGUAGES
+}
+
+const pathLang = Astro.url.pathname.split('/')[1]
+const currentLang = isSupportedLang(pathLang) ? pathLang : 'en'
+const lang = `${currentLang}`
 ---
 
 <html lang={lang}>

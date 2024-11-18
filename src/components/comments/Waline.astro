@@ -1,22 +1,40 @@
 ---
-// 导入配置文件中的themeConfig对象
 import { themeConfig } from '~/config'
+import { LANGUAGES } from '~/i18n'
 
-// 从themeConfig.comment中解构出waline配置项的属性，如果themeConfig.comment或themeConfig.comment.waline不存在，则使用空对象{}
-const { serverURL, lang, emoji, search, imageUploader } = themeConfig.comment?.waline || {}
+type SupportedLang = keyof typeof LANGUAGES
+
+const langMap: Record<SupportedLang, string> = {
+  zh: 'zh-CN',
+  en: 'en-US',
+  es: 'es-MX',
+  ru: 'ru-RU',
+  ja: 'jp-JP',
+}
+
+function isSupportedLang(lang: string): lang is SupportedLang {
+  return lang in LANGUAGES
+}
+
+const pathLang = Astro.url.pathname.split('/')[1] || 'en'
+const currentLang = isSupportedLang(pathLang) ? pathLang : 'en'
+
+const { serverURL, emoji, search, imageUploader } = themeConfig.comment?.waline || {}
+
+const walineLang = langMap[currentLang]
 ---
 
 <div id="waline"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
 
-<script type="module" is:inline define:vars={{ serverURL, lang, emoji, search, imageUploader }}>
+<script type="module" define:vars={{ serverURL, walineLang, emoji, search, imageUploader }}>
   import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js'
 
   init({
     el: '#waline',
     serverURL,
-    lang,
+    lang: walineLang,
     emoji,
     search,
     imageUploader,

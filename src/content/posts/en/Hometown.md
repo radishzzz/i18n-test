@@ -1,188 +1,186 @@
 ---
 title: Hometown
 pubDate: 1921-01-10
-categories: ['魯迅']
+categories: Lu Xun
 description: ''
 lang: en
 canonicalSlug: Hometown
 ---
 
-这是en。
+I braved the cold to return to my hometown, which was more than 2,000 miles away and I had been away for more than 20 years.
 
-我冒了嚴寒，回到相隔二千餘里，別了二十餘年的故鄉去。
+It was the dead of winter, and as I approached my hometown, the weather became cloudy again, and the cold wind blew into the cabin with a whistling sound. When I looked out from the canopy, I saw several desolate villages far and near under the pale yellow sky, and there was no vitality at all. I couldn't help but feel sad.
 
-時候既然是深冬；漸近故鄉時，天氣又陰晦了，冷風吹進船艙中，嗚嗚的響，從蓬隙向外一望，蒼黃的天底下，遠近橫著幾個蕭索的荒村，沒有一些活氣。我的心禁不住悲涼起來了。
+I'm not going to be able to do that! This is not the hometown I have always remembered in the past twenty years.
 
-阿！這不是我二十年來時時記得的故鄉？
+The hometown I remember is not like this. My hometown is much better. But if I were to remember its beauty and speak of its virtues, I would have no images and no words. It is as if that is all there is to it. So I explained to myself, “My hometown is like this, though it has not improved, and it may not be as sad as I feel; it is only a change of my own mood, for I have not been in a good mood when I returned to it this time.
 
-我所記得的故鄉全不如此。我的故鄉好得多了。但要我記起他的美麗，說出他的佳處來，卻又沒有影像，沒有言辭了。仿佛也就如此。於是我自己解釋說：故鄉本也如此，——雖然沒有進步，也未必有如我所感的悲涼，這只是我自己心情的改變罷了，因為我這次回鄉，本沒有什麼好心緒。
+I came here specifically to say goodbye to him. We have many years of gathering and living in the old house, has been sold to the public with the other family name, the deadline for the handover of the house, only in this year, so we must hurry before the first day of the first month of the new year, said goodbye to the old house of the familiar, and far away from the hometown of the familiar, move to the foreign land where I am making a living to go.
 
-我這次是專為了別他而來的。我們多年聚族而居的老屋，已經公同賣給別姓了，交屋的期限，只在本年，所以必須趕在正月初一以前，永別了熟識的老屋，而且遠離了熟識的故鄉，搬家到我在謀食的異地去。
+The next morning I arrived at the door of my house. The broken stems of the withered grasses on the corrugated roof were shaking in the wind, explaining why the old house had inevitably changed ownership. The original owners of the houses had probably moved out, so it was very quiet. When I arrived at my house, my mother welcomed me out, and then my eight-year-old nephew, Hong Er, flew out.
 
-第二日清早晨我到了我家的門口了。瓦楞上許多枯草的斷莖當風抖著，正在說明這老屋難免易主的原因。幾房的本家大約已經搬走了，所以很寂靜。我到了自家的房外，我的母親早已迎著出來了，接著便飛出了八歲的侄兒宏兒。
+My mother was very happy, but also hid a lot of sadness, told me to sit down, rest, drink tea, and not to talk about the move. Hong'er had never seen me, and stood far away from each other, just watching.
 
-我的母親很高興，但也藏著許多淒涼的神情，教我坐下，歇息，喝茶，且不談搬家的事。宏兒沒有見過我，遠遠的對面站著只是看。
+But we finally talked about moving. I said that I had rented an apartment outside and bought some furniture, and that I would have to sell all the woodwork in the house and add to it. Mother also said yes, and the luggage has been assembled a little, and half of the wooden utensils that are not easy to transport have been sold, but I can't afford to collect the money.
 
-但我們終於談到搬家的事。我說外間的寓所已經租定了，又買了幾件傢具，此外須將家裡所有的木器賣去，再去增添。母親也說好，而且行李也略已齊集，木器不便搬運的，也小半賣去了，只是收不起錢來。
+“You can rest for a day or two and visit your relatives, and then we can go.” Mother said.
 
-「你休息一兩天，去拜望親戚本家一回，我們便可以走了。」母親說。
+“Yes,” she said.
 
-「是的。」
+“And there's also Komatsu. Whenever he comes to my house, he always asks about you and wants to see you. I have informed him of the approximate date of your arrival, and he may be coming soon.”
 
-「還有閏土，他每到我家來時，總問起你，很想見你一回面。我已經將你到家的大約日期通知他，他也許就要來了。」
+At that moment, a fantastic picture suddenly flashed into my mind: a full golden moon hung in the deep blue sky, and below it was a sandy land by the sea, planted with endless turquoise watermelons; in the middle of it there was an eleven or twelve years old boy, with a silver collar and a steel fork, stabbing at a Badger as hard as he could, but the Badger twisted its body and escaped from his crotch.
 
-這時候，我的腦裡忽然閃出一幅神異的圖畫來：深藍的天空中掛著一輪金黃的圓月，下面是海邊的沙地，都種著一望無際的碧綠的西瓜，其間有一個十一二歲的少年，項帶銀圈，手捏一柄鋼叉，向一匹猹盡力的刺去，那猹卻將身一扭，反從他的胯下逃走了。
+The young man was a man of the earth. When I met him, I was only in my teens, thirty years ago; my father was still alive, and my family was well off, and I was a young lord. That year, my family was in the year of a big festival. It was said that this festival would only happen once every thirty years, so it was very serious; in the first month of the year, we offered statues of our ancestors, a lot of offerings, very elaborate sacrificial vessels, a lot of people worshipped, and the sacrificial vessels had to be protected from being stolen. My family only had one busy month (we have three types of laborers here: those who work for certain people throughout the year are called long-time laborers; those who work on a day-to-day basis are called short-time laborers; and those who work on their own land and only come to work for certain people during New Year's holidays and rent collection are called busy months), and they were too busy to do anything else, so he told his father to ask his son, Kua Tuo, to be in charge of the sacrificial vessels.
 
-這少年便是閏土。我認識他時，也不過十多歲，離現在將有三十年了；那時我的父親還在世，家景也好，我正是一個少爺。那一年，我家是一件大祭祀的值年。這祭祀，說是三十多年才能輪到一回，所以很鄭重；正月裡供祖像，供品很多，祭器很講究，拜的人也很多，祭器也很要防偷去。我家只有一個忙月（我們這裡給人做工的分三種：整年給一定人家做工的叫長工；按日給人做工的叫短工；自己也種地，只在過年過節以及收租時候來給一定人家做工的稱忙月），忙不過來，他便對父親說，可以叫他的兒子閏土來管祭器的。
+My father allowed him to do so, and I was very happy because I had heard of the name of Wutu, and I knew that he was about the same age as I was, and that he was born in the first month of the lunar year, and that his five elements lacked the element of earth, and so his father had called him Wutu. He was able to catch small birds with a snare.
 
-我的父親允許了；我也很高興，因為我早聽到閏土這名字，而且知道他和我仿佛年紀，閏月生的，五行缺土，所以他的父親叫他閏土。他是能裝弶捉小鳥雀的。
+I was looking forward to the New Year every day, and when the New Year came, so did the earth. One day, at the end of the year, my mother told me that Tu had arrived, so I ran to see him. He was in the kitchen, with a purple round face, a small felt hat on his head, and a shining silver collar around his neck. This shows that his father loved him very much, and was afraid that he would die, so he made a wish in front of the gods and Buddhas, and put him in a circle. He was very shy when he saw people, but not afraid of me, when there was no one else, he talked to me, so in less than half a day, we became acquainted.
 
-我於是日日盼望新年，新年到，閏土也就到了。好容易到了年末，有一日，母親告訴我，閏土來了，我便飛跑的去看。他正在廚房裡，紫色的圓臉，頭戴一頂小氈帽，頸上套一個明晃晃的銀項圈，這可見他的父親十分愛他，怕他死去，所以在神佛面前許下願心，用圈子將他套住了。他見人很怕羞，只是不怕我，沒有旁人的時候，便和我說話，於是不到半日，我們便熟識了。
+We didn't know what we were talking about at that time, but we only remembered that Tangtu was very happy and said that he had seen many things that he had never seen before when he went to the city.
 
-我們那時候不知道談些什麼，只記得閏土很高興，說是上城之後，見了許多沒有見過的東西。
+The next day, I asked him to catch birds. He said:
 
-第二日，我便要他捕鳥。他說：
+He said, “I can't. It is better when there is snow. On our sandy land, when it snowed, I swept out a piece of empty land, used a short stick to support a large bamboo plaque, scattered grain, and watched the birds come to eat, I was far away from the rope tied to the stick just one pull, and the birds were covered under the bamboo plaque. There was everything: rice chickens, hornbills, francolins, bluebacks ......”.
 
-“這不能。須大雪下了才好。我們沙地上，下了雪，我掃出一塊空地來，用短棒支起一個大竹匾，撒下秕穀，看鳥雀來吃時，我遠遠地將縛在棒上的繩子只一拉，那鳥雀就罩在竹匾下了。什麼都有：稻雞，角雞，鵓鴣，藍背……”
+I was looking forward to the snow again.
 
-我於是又很盼望下雪。
+The earth said to me again:
 
-閏土又對我說：
+“It's too cold now, so come to us in the summer. We'll go to the beach in the daytime and collect shells, red and green ones, and ghosts, and the hands of the Goddess of Mercy. At night, Father and I will go to look after watermelons, and you will go too.”
 
-“現在太冷，你夏天到我們這裡來。我們日裡到海邊撿貝殼去，紅的綠的都有，鬼見怕也有，觀音手也有。晚上我和爹管西瓜去，你也去。”
+“Thieves?”
 
-“管賊麽？”
+“No. We don't count thieves here. We don't count people picking watermelons when they're thirsty. What we need to control are badgers, pigs, hedgehogs, and badgers. Under the moon, you can hear the sound of a wild animal biting a melon. Then you pinch your fork and walk gently to ......”.
 
-“不是。走路的人口渴了摘一個瓜吃，我們這裡是不算偷的。要管的是獾豬，刺蝟，猹。月亮底下，你聽，啦啦的響了，猹在咬瓜了。你便捏了胡叉，輕輕地走去……”
+I didn't know what the so-called Badger was at that time - I still don't - but I just thought it was fierce and puppy-like for no reason.
 
-我那時並不知道這所謂猹的是怎麼一件東西——便是現在也沒有知道——只是無端的覺得狀如小狗而很兇猛。
+“Doesn't he bite?”
 
-“他不咬人麽？”
+“He has a fork. When you see a Badger, you stab it. This animal is very clever, and runs towards you, but it tries to run away from your crotch. His fur is as slippery as oil .......”
 
-“有胡叉呢。走到了，看見猹了，你便刺。這畜生很伶俐，倒向你奔來，反從胯下竄了。他的皮毛是油一般的滑……”
+I did not know that there were so many new things in the world: that there were so many colorful shells on the seashore; that the watermelon had had such a dangerous experience, and that I had known that it had been sold in a fruit store.
 
-我素不知道天下有這許多新鮮事：海邊有如許五色的貝殼；西瓜有這樣危險的經歷，我先前單知道他在水果店裡出賣罷了。
+“In our sand, when the tide is coming in, there are a lot of jumping fish just jumping, all with two legs like frogs. ......”
 
-“我們沙地裡，潮汛要來的時候，就有許多跳魚兒只是跳，都有青蛙似的兩個腳……”
+The first thing I'd like to say is that I'm not sure how much I'd like to see you! There are endless and strange things in the heart of the land that my usual friends do not know. They didn't know that when they were at the seaside, they, like me, saw only the sky at the corners of the high wall in the courtyard.
 
-阿！閏土的心裡有無窮無盡的希奇的事，都是我往常的朋友所不知道的。他們不知道一些事，閏土在海邊時，他們都和我一樣只看見院子裡高牆上的四角的天空。
+Unfortunately, when the first month of the lunar calendar passed and Mistletoe had to go home, I cried out in anxiety, and he hid himself in the kitchen, crying and refusing to leave the house, but finally his father took him away. He later asked his father to bring me a bag of shells and a few beautiful bird feathers, and I gave him something once or twice, but we never saw each other again.
 
-可惜正月過去了，閏土須回家裡去，我急得大哭，他也躲到廚房裡，哭著不肯出門，但終於被他父親帶走了。他後來還托他的父親帶給我一包貝殼和幾支很好看的鳥毛，我也曾送他一兩次東西，但從此沒有再見面。
+Now that my mother mentioned him, all my memories here suddenly came back to me like lightning, as if I had seen my beautiful hometown. I answered:
 
-現在我的母親提起了他，我這兒時的記憶，忽而全都閃電似的蘇生過來，似乎看到了我的美麗的故鄉了。我應聲說：
+I answered, “That's very good! I'm not sure if you're going to be able to get a good deal on this. ......”
 
-“這好極！他，——怎樣？……”
+“He? ...... He's in a very bad way,......,” said my mother, looking out of the room, ”These people are here again. They said they were buying woodwork, and they took it by the hand, so I'll have to go and have a look.”
 
-“他？……他景況也很不如意……”母親說著，便向房外看，“這些人又來了。說是買木器，順手也就隨便拿走的，我得去看看。”
+The mother stood up and went out. Outside the door there were several women's voices. I beckoned Hong'er to come closer to me and talked to him: I asked him if he could write and if he was willing to go out.
 
-母親站起身，出去了。門外有幾個女人的聲音。我便招宏兒走近面前，和他閑話：問他可會寫字，可願意出門。
+“Shall we go by train?”
 
-“我們坐火車去麽？”
+“We're going by train.”
 
-“我們坐火車去。”
+“What about the boat?”
 
-“船呢？”
+“First by boat, ......”
 
-“先坐船，……”
+“Ha! That's what it looks like! The beard is so long!” A sharp, strange voice suddenly cried out.
 
-“哈！這模樣了！鬍子這麼長了！”一種尖利的怪聲突然大叫起來。
+I ate a shock, hastily looked up, but saw a convex cheekbones, thin lips, fifty years old woman stood in front of me, two hands on the thighs, did not tie the skirt, open two feet, just like a drawing instrument in the small feet of the round rule.
 
-我吃了一嚇，趕忙抬起頭，卻見一個凸顴骨、薄嘴唇、五十歲上下的女人站在我面前，兩手搭在髀間，沒有繫裙，張著兩腳，正像一個畫圖儀器裡細腳伶仃的圓規。
+I was stunned.
 
-我愕然了。
+“Don't you recognize me? I even hugged you!”
 
-“不認識了麽？我還抱過你咧！”
+I was even more stunned. Fortunately, my mother came in and said:
 
-我愈加愕然了。幸而我的母親也就進來，從旁說：
+“He's been away for many years, he's forgotten. You should remember,” and then said to me, ”This is the diagonally opposite door of the Yang Er Sister-in-law,...... who owns a tofu store.”
 
-“他多年出門，統忘卻了。你該記得罷，”便向著我說，“這是斜對門的楊二嫂，……開豆腐店的。”
+I remember. When I was a kid, in the tofu store across the street, there was indeed a Mrs. Yang, known as “Tofu Shih Tzu,” all day long. But she wore white powder, her cheekbones weren't so high, her lips weren't so thin, and she sat there all day long, and I've never seen such a rounded posture. People at that time said, “Because of Yi, this tofu store sells very well. But because of my age, I had not been sensitized at all, so I had forgotten all about it. However, Marbling was very indignant, and with a look of contempt, as if he were laughing at the French for not knowing Napoleon, or the Americans for not knowing Washington, he sneered and said:
 
-哦，我記得了。我孩子時候，在斜對門的豆腐店裡確乎終日坐著一個楊二嫂，人都叫伊“豆腐西施”。但是擦著白粉，顴骨沒有這麼高，嘴唇也沒有這麼薄，而且終日坐著，我也從沒有見過這圓規式的姿勢。那時人說：因為伊，這豆腐店的買賣非常好。但這大約因為年齡的關係，我卻並未蒙著一毫感化，所以竟完全忘卻了。然而圓規很不平，顯出鄙夷的神色，仿佛嗤笑法國人不知道拿破侖，美國人不知道華盛頓似的，冷笑說：
+“Forgotten? This is really a noble man with high ...... eyes.”
 
-“忘了？這真是貴人眼高……”
+“That there is such a thing ...... I ......” I said, terrified, rising.
 
-“那有這事……我……”我惶恐著，站起來說。
+“Then, I say to you. Xun brother son, you wide, moving and bulky, what else do you want these broken wood, let me take it. We're a small family, we can use it.”
 
-“那麼，我對你說。迅哥兒，你闊了，搬動又笨重，你還要什麼這些破爛木器，讓我拿去罷。我們小戶人家，用得著。”
+“I'm not too wide. I have to sell these and go back to .......”
 
-“我並沒有闊哩。我須賣了這些，再去……”
+“You've put away the dao dai, and you're still saying you're not rich? Now you have three wives, and you go out in an eight-carriage sedan, and you still say you're not rich? You can't hide anything from me.” I knew I had nothing to say.
 
-“阿呀呀，你放了道台了，還說不闊？你現在有三房姨太太；出門便是八抬的大轎，還說不闊？嚇，什麼都瞞不過我。”
+I knew I had nothing more to say, so I shut up and stood silently.
 
-我知道無話可說了，便閉了口，默默的站著。
+“The richer you are, the more you don't want to relax, and the more you don't want to relax, the richer you are. ......” Yuan規(圓規) turned around angrily, and slowly walked out of the house, tucking a pair of my mother's gloves into the waistband of her pants, and went out. He went out, tucking a pair of my mother's gloves into the waist of her pants.
 
-“阿呀阿呀，真是愈有錢，便愈是一毫不肯放鬆，愈是一毫不肯放鬆，便愈有錢……”圓規一面憤憤的迴轉身，一面絮絮的說，慢慢向外走，順便將我母親的一副手套塞在褲腰裡，出去了。
+After that, I was visited by some close family members and relatives. I spent three or four days like this, entertaining and packing.
 
-此後又有近處的本家和親戚來訪問我。我一面應酬，偷空便收拾些行李，這樣的過了三四天。
+One day was a very cold afternoon, I ate lunch, sat down to drink tea, felt that someone came in, so I turned back to look. When I saw it, I was so shocked that I stood up in a panic and went to meet him.
 
-一日是天氣很冷的午後，我吃過午飯，坐著喝茶，覺得外面有人進來了，便回頭去看。我看時，不由的非常出驚，慌忙站起身，迎著走去。
+The person who came in was Cao Tuo. Although I knew it was Misty at first sight, it was not the Misty I remembered. He had doubled in size; his round, purple face had turned grayish-yellow with deep wrinkles; and his eyes, like his father's, were swollen and red around them, as I knew people who farmed by the sea and were exposed to the sea winds all day long would be. On his head was a tattered felt hat, and on his body was only a very thin cotton shirt, all cowering; in his hand was a paper bag and a long pipe, and his hands were not the red, rounded hands I remembered, but were thick, clumsy, and cracked, like the bark of a pine tree.
 
-這來的便是閏土。雖然我一見便知道是閏土，但又不是我這記憶上的閏土了。他身材增加了一倍；先前的紫色的圓臉，已經變作灰黃，而且加上了很深的皺紋；眼睛也像他父親一樣，周圍都腫得通紅，這我知道，在海邊種地的人，終日吹著海風，大抵是這樣的。他頭上是一頂破氈帽，身上只一件極薄的棉衣，渾身瑟索著；手裡提著一個紙包和一支長煙管，那手也不是我所記得的紅活圓實的手，卻又粗又笨而且開裂，像是松樹皮了。
+I was excited, but I didn't know what to say, so I just said:
 
-我這時很興奮，但不知道怎麼說才好，只是說：
+I just said, “Ah! I'm not sure what to say, but I just said, “Ah! ......”
 
-“阿！閏土哥，——你來了？……”
+I then have a lot of words, want to be like a series of pearls welling up: horned chicken, jumping fish, shells, Badger, ...... but always feel blocked by something like, single in the brain circling, spit out of the mouth outside.
 
-我接著便有許多話，想要連珠一般湧出：角雞，跳魚兒，貝殼，猹，……但又總覺得被什麼擋著似的，單在腦裡面迴旋，吐不出口外去。
+He stood still, his face appeared joyful and miserable look; moved his lips, but did not make a sound. His attitude finally became respectful, and he called out clearly:
 
-他站住了，臉上現出歡喜和淒涼的神情；動著嘴唇，卻沒有作聲。他的態度終於恭敬起來了，分明的叫道：
+The first thing he said was, “I'm sorry, I'm sorry, I'm sorry, I'm sorry! ......”
 
-“老爺！……”
+I seemed to shiver; I knew that a sadly thick barrier had come between us. I could not speak.
 
-我似乎打了一個寒噤；我就知道，我們之間已經隔了一層可悲的厚障壁了。我也說不出話。
+He turned back and said, “Shuisheng, kowtow to Old Grandfather.” He dragged out the child who was hiding behind his back, and it was the same child from twenty years ago, only thinner and without the silver ring around his neck. “This is the fifth child, who has not seen the world, and is hiding .......”
 
-他回過頭去說，“水生，給老爺磕頭。”便拖出躲在背後的孩子來，這正是一個廿年前的閏土，只是黃瘦些，頸子上沒有銀圈罷了。“這是第五個孩子，沒有見過世面，躲躲閃閃……”
+Mother and Hong'er came downstairs, and they probably heard the voice.
 
-母親和宏兒下樓來了，他們大約也聽到了聲音。
+“Old lady. I received the letter a long time ago. I really like it so much, know that the old master came back ......,” said the earth.
 
-“老太太。信是早收到了。我實在喜歡的不得了，知道老爺回來……”閏土說。
+“Ah, why are you so polite? I thought you were brother and sister. It's the same as before: Brother Xun.” Mother said happily.
 
-“阿，你怎的這樣客氣起來。你們先前不是哥弟稱呼麽？還是照舊：迅哥兒。”母親高興的說。
+“Aye, old lady, you are so ...... unorthodox. I was a child, I didn't know what I was doing,......,” said the landlord, and asked Shuisheng to come up to him to play, but the boy was shy, and pressed himself tightly against his back.
 
-“阿呀，老太太真是……這成什麼規矩。那時是孩子，不懂事……”閏土說著，又叫水生上來打拱，那孩子卻害羞，緊緊的只貼在他背後。
+The boy, however, was shy and stuck close to his back. “Is he Shuisheng? The fifth? It is not surprising that he should be afraid of strangers; it is better for Hong'er to go for a walk with him.” Mother said.
 
-“他就是水生？第五個？都是生人，怕生也難怪的；還是宏兒和他去走走。”母親說。
+When Hong'er heard this, he came to beckon Shuisheng, but Shuisheng went out with him in a relaxed manner. His mother asked him to sit down, and he hesitated, but at last he sat down, leaned his pipe against the table, handed over the paper bag, and said:
 
-宏兒聽得這話，便來招水生，水生卻鬆鬆爽爽同他一路出去了。母親叫閏土坐，他遲疑了一回，終於就了坐，將長煙管靠在桌旁，遞過紙包來，說：
+“There is nothing left for winter. This is a little bit of dry green beans, but the family dry there, please old man ......”.
 
-“冬天沒有什麼東西了。這一點乾青豆倒是自家曬在那裡的，請老爺……”
+I asked him how he was doing. He just shook his head.
 
-我問問他的景況。他只是搖頭。
+“It's very difficult. The sixth child is now helping, but there isn't enough to eat,...... and it's not peaceful,...... money is needed everywhere, and there are no regulations,...... and the harvest is bad. If you plant something and take it to the market, you always have to donate money several times and lose your capital; if you don't go to the market, it will only rot .......”
 
-“非常難。第六個孩子也會幫忙了，卻總是吃不夠……又不太平……什麼地方都要錢，沒有規定……收成又壞。種出東西來，挑去賣，總要捐幾回錢，折了本；不去賣，又只能爛掉……”
+He just shook his head; although there are many wrinkles carved on his face, he is completely immobile, as if he were a stone statue. He felt bitter, but could not describe it. After a while of silence, he picked up a pipe and smoked in silence.
 
-他只是搖頭；臉上雖然刻著許多皺紋，卻全然不動，仿佛石像一般。他大約只是覺得苦，卻又形容不出，沉默了片時，便拿起煙管來默默的吸煙了。
+When my mother asked him about it, she realized that he was busy with family business and would have to go back tomorrow. Since he hadn't eaten lunch, she told him to go into the kitchen and fry some rice for himself.
 
-母親問他，知道他的家裡事務忙，明天便得回去；又沒有吃過午飯，便叫他自己到廚下炒飯吃去。
+He went out, and my mother and I sighed at his situation: many children, famine, high taxes, soldiers, bandits, officials, and gentry, all of which had made him as miserable as a puppeteer. Mother said to me that I could give him anything that did not need to be removed, and that he could choose for himself.
 
-他出去了；母親和我都嘆息他的景況：多子，饑荒，苛稅，兵，匪，官，紳，都苦得他像一個木偶人了。母親對我說，凡是不必搬走的東西，盡可以送他，可以聽他自己去揀擇。
+In the afternoon, he picked out a few things: two long tables, four chairs, an incense burner and candlestick, and a scale. He also asked for all the straw ash (we burn straw here for cooking, and the ash can be used as fertilizer for the sand), so that he could take it in his boat when we started our journey.
 
-下午，他揀好了幾件東西：兩條長桌，四個椅子，一副香爐和燭臺，一桿抬秤。他又要所有的草灰（我們這裡煮飯是燒稻草的，那灰，可以做沙地的肥料），待我們啟程的時候，他用船來載去。
+During the night we talked some more, but it was nothing important; and the next morning he took Shuisheng and went back.
 
-夜間，我們又談些閑天，都是無關緊要的話；第二天早晨，他就領了水生回去了。
+And nine days passed, and it was the day of our departure. In the morning of the first day of the voyage we arrived, and Shuisheng did not come with us, but took only a five-year-old daughter to manage the boat. We were so busy all day that we had no time to talk. There were many visitors, some to see us off, some to take things, and some to see us off and take things at the same time. By the time we boarded the boat in the evening, the old house had been swept clean of all the old and worn-out things, big and small.
 
-又過了九日，是我們啟程的日期。閏土早晨便到了，水生沒有同來，卻只帶著一個五歲的女兒管船隻。我們終日很忙碌，再沒有談天的工夫。來客也不少，有送行的，有拿東西的，有送行兼拿東西的。待到傍晚我們上船的時候，這老屋裡的所有破舊大小粗細東西，已經一掃而空了。
+As our boat moved forward, the green hills on both sides of the river turned into a darker color in the dusk, and retreated to the back of the boat.
 
-我們的船向前走，兩岸的青山在黃昏中，都裝成了深黛顏色，連著退向船後梢去。
+Hong'er and I leaned against the boat window, looking out at the blurred landscape, and he suddenly asked:
 
-宏兒和我靠著船窗，同看外面模糊的風景，他忽然問道：
+He suddenly asked: “Uncle! When are we coming back?”
 
-“大伯！我們什麼時候回來？”
+“Come back? Why do you want to come back before you leave?”
 
-“回來？你怎麼還沒有走就想回來了。”
+“But Shuisheng asked me to go to his house for a playdate ......,” he thought with his big black eyes wide open.
 
-“可是，水生約我到他家玩去咧……”他睜著大的黑眼睛，癡癡的想。
+Mother and I were both a little confused, so we brought up the issue of the tofu again. Mother said that the tofu shi shi Yang two sisters-in-law, since my family packing since, this is a daily must, the day before yesterday Yi in the ash pile, pulled out more than ten dishes to discuss, then decided to say that is buried in the soil, he can be in the transportation of ash, together with the move back home; Yang two sisters-in-law found this thing, their own very much for the success of the dog gas kill (which is the apparatus for raising chickens in our area, the wooden tray above the fence, inside the food, chickens can reach out and eat, and then the dog gas kill (which is the instrument for raising chickens, wooden tray above the fence, inside the food, chickens can reach out and eat, and then the dog gas kill), the dog gas kill (which is the instrument for raising chickens in our area, wooden tray above the fence, inside the food, chickens can reach out and eat. The chicken can reach into the neck to peck, but the dog can not, can only see the death of gas), flew as if running away, thanks to the installation of such a high and low small feet, but even ran so fast.
 
-我和母親也都有些惘然，於是又提起閏土來。母親說，那豆腐西施的楊二嫂，自從我家收拾行李以來，本是每日必到的，前天伊在灰堆裡，掏出十多個碗碟來，議論之後，便定說是閏土埋著的，他可以在運灰的時候，一齊搬回家裡去；楊二嫂發見了這件事，自己很以為功，便拿了那狗氣殺（這是我們這裡養雞的器具，木盤上面有著柵欄，內盛食料，雞可以伸進頸子去啄，狗卻不能，只能看著氣死），飛也似的跑了，虧伊裝著這麼高低的小腳，竟跑得這樣快。
+The old house is getting farther and farther away from me; the mountains and landscapes of my hometown are also getting farther and farther away from me, but I don't feel much nostalgia for them. I only felt that there was an invisible wall on all sides of me, separating me into a solitary body, which made me very bored; and the image of the little hero with the silver collar on the watermelon floor, which had been very clear to me, was suddenly blurred, which also made me very sad.
 
-老屋離我愈遠了；故鄉的山水也都漸漸遠離了我，但我卻並不感到怎樣的留戀。我只覺得我四面有看不見的高牆，將我隔成孤身，使我非常氣悶；那西瓜地上的銀項圈的小英雄的影像，我本來十分清楚，現在卻忽地模糊了，又使我非常的悲哀。
+Mother and Hong'er were asleep.
 
-母親和宏兒都睡著了。
+I lay down and listened to the sound of the water gurgling under the boat, knowing that I was on my way. I thought to myself, “I have been cut off from the land to this extent, but our descendants are still the same, and Hong'er is not missing Shuisheng. I hope that they are no longer like me, and everyone membrane up ...... However, I don't want them because of the gas, all like my hard to spread and live, and don't want them to be like the hard numbness of the soil and live, and don't want to be like others hard wanton and live. They should have a new life, a life that we have not lived.
 
-我躺著，聽船底潺潺的水聲，知道我在走我的路。我想：我竟與閏土隔絕到這地步了，但我們的後輩還是一氣，宏兒不是正在想念水生麽。我希望他們不再像我，又大家隔膜起來……然而我又不願意他們因為要一氣，都如我的辛苦展轉而生活，也不願意他們都如閏土的辛苦麻木而生活，也不願意都如別人的辛苦恣睢而生活。他們應該有新的生活，為我們所未經生活過的。
+I thought of hope, and suddenly I was afraid. I had laughed at him when he asked for an incense burner and a candlestick, thinking that he always worshipped idols and never forgot them. Now my so-called hope is also my own handmade idol, isn't it? It's just that his wish is close and mine is far away.
 
-我想到希望，忽然害怕起來了。閏土要香爐和燭臺的時候，我還暗地裡笑他，以為他總是崇拜偶像，什麼時候都不忘卻。現在我所謂希望，不也是我自己手製的偶像麽？只是他的願望切近，我的願望茫遠罷了。
+In a haze, a stretch of turquoise sand by the sea opened up before my eyes, and a full golden moon hung in the deep blue sky above me. I thought to myself, “There is no such thing as hope, and there is no such thing as nothing. This is just like the road on the ground; in fact, there is no road on the ground, but the more people walk on it, the more it becomes a road.
 
-我在朦朧中，眼前展開一片海邊碧綠的沙地來，上面深藍的天空中掛著一輪金黃的圓月。我想：希望本是無所謂有，無所謂無的。這正如地上的路；其實地上本沒有路，走的人多了，也便成了路。
-
-一九二一年一月
+January 1921
