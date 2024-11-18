@@ -15,7 +15,7 @@ export const defaultConfig: ThemeConfig = {
       ru: 'Откройте для себя красоту типографики',
       ja: 'タイポグラフィーの美しさを再発見',
     },
-    website: 'https://astro-theme-typography.vercel.app/',
+    website: 'https://radishzz-astro.netlify.app',
     pageSize: 5,
     socialLinks: [
       {
